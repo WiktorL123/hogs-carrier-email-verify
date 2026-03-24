@@ -1,0 +1,58 @@
+{
+  "EmailSection": {
+    "title": "Verificare email de către",
+    "emailRequired": "Emailul este obligatoriu",
+    "emailMessage": "Format de email invalid",
+    "inputPlaceholder": "Verificați contractorul dvs.",
+    "loading": "Se încarcă",
+    "resultNotExistingHeading": "Niciun rezultat încă",
+    "resultNotExistingParagraph": "Introduceți un email pentru a vedea rezultatele",
+    "summaryTitle": "Rezumat pentru",
+    "lowScore": "Acest email a picat majoritatea verificărilor de securitate și autenticitate. Există un risc ridicat de fraudă sau de tentative de phishing. Vă sfătuim cu tărie să fiți extrem de prudenți și vă recomandăm să nu dați click pe niciun link sau să nu mai interacționați cu acest expeditor.",
+    "mediumScore": "Acest email a trecut doar parțial verificările de securitate. Au fost detectate anumite neconcordanțe care ar putea indica un risc potențial. Vă recomandăm să verificați cu atenție identitatea expeditorului și conținutul emailului înainte de a lua orice măsură.",
+    "highScore": "Acest email a trecut majoritatea verificărilor de securitate și autenticitate. Este foarte probabil să fie autentic, cu un risc minim de fraudă sau tentative de phishing. Puteți continua cu încredere comunicarea prin acest email.",
+    "trustworthiness": "Încredere",
+    "addressRiskStatus": "Stadiul de risc al adresei",
+    "deliverabilityStatus": "Statusul de livrabilitate",
+    "domainRiskStatus": "Stadiul de risc al domeniului",
+    "knownProvider": "Furnizor cunoscut",
+    "appearedInDataBreaches": "A apărut în scurgeri de date",
+    "isUsernameSuspicious": "Numele de utilizator este suspect",
+    "statusLow": "scăzut",
+    "statusMedium": "mediu",
+    "statusHigh": "ridicat",
+    "statusDeliverable": "livrabil",
+    "statusUndeliverable": "nelivrabil",
+    "statusUnknown": "necunoscut",
+    "yes": "da",
+    "no": "nu",
+    "noBreaches": "niciun incident",
+    "oneTime": "1 dată",
+    "times": "ori",
+    "hogsRatings": "Evaluări HOGS",
+    "shipmentVolume": "Volumul expedierilor",
+    "clientTenure": "Vechimea clientului",
+    "associatedCompanies": "Companii asociate"
+  },
+  "WhyVerifyEmail": {
+    "title": "De ce să verifici un email?",
+    "paragraph": "Verificarea emailurilor ajută la protejarea afacerii dvs. împotriva înșelăciunilor, a scurgerilor de date și a perturbărilor costisitoare, prin identificarea expeditorilor suspecți înainte ca aceștia să ajungă la echipa dvs. În industria transportului rutier, unde companiile primesc frecvent cereri de livrare, facturi și confirmări de rezervare, este ușor pentru escroci să se strecoare. Verificarea emailului acționează ca o primă linie de apărare, asigurându-se că doar comunicarea legitimă trece."
+  },
+  "SafetyBenefits": {
+    "title": "Beneficii de siguranță",
+    "firstListItem": "Reduceți riscul de a cădea pradă înșelăciunilor de tip phishing",
+    "secondListItem": "Păstrați căsuțele de email ale echipei libere de cereri de livrare false și facturi frauduloase",
+    "thirdListItem": "Protejați datele sensibile ale clienților și ale logisticii de infractorii cibernetici",
+    "fourthListItem": "Mențineți încrederea clienților securizându-vă canalele de comunicare",
+    "buttonTitle": "Încercați gratuit"
+  },
+  "Footer": {
+    "contact": "Contact",
+    "headquarters": "Sediu central",
+    "headquartersAddress": "Adar sp. z o.o. Olivia Four al. Grunwaldzka 472b 80-309 Gdańsk",
+    "menu": "Meniu",
+    "termsAndConditions": "Termeni și condiții",
+    "privacyAndCookiePolicy": "Politica de confidențialitate și cookie-uri",
+    "aboutHogs": "Despre Hogs"
+  }
+}

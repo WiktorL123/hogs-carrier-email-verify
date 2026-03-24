@@ -1,0 +1,58 @@
+{
+  "EmailSection": {
+    "title": "Provjera e-pošte od",
+    "emailRequired": "E-pošta je obavezna",
+    "emailMessage": "Nevažeći format e-pošte",
+    "inputPlaceholder": "Provjerite svog ugovaratelja",
+    "loading": "Učitavanje",
+    "resultNotExistingHeading": "Još nema rezultata",
+    "resultNotExistingParagraph": "Unesite e-poštu da biste vidjeli rezultate",
+    "summaryTitle": "Sažetak za",
+    "lowScore": "Ova e-pošta nije prošla većinu sigurnosnih i autentičnih provjera. Postoji visok rizik od prijevare ili pokušaja krađe identiteta (phishing). Strogo savjetujemo krajnji oprez i preporučujemo da ne klikate ni na kakve poveznice ili dalje komunicirate s ovim pošiljateljem.",
+    "mediumScore": "Ova e-pošta je samo djelomično prošla sigurnosne provjere. Otkrivene su određene nedosljednosti koje bi mogle ukazivati na potencijalni rizik. Preporučujemo da pažljivo provjerite identitet pošiljatelja i sadržaj e-pošte prije poduzimanja bilo kakvih radnji.",
+    "highScore": "Ova e-pošta prošla je većinu sigurnosnih i autentičnih provjera. Vrlo je vjerojatno da je autentična, uz minimalan rizik od prijevare. Možete sigurno nastaviti komunikaciju s ovim adresantom.",
+    "trustworthiness": "Pouzdanost",
+    "addressRiskStatus": "Status rizika adrese",
+    "deliverabilityStatus": "Status isporučivosti",
+    "domainRiskStatus": "Status rizika domene",
+    "knownProvider": "Poznati pružatelj usluga",
+    "appearedInDataBreaches": "Pojavio se u curenjima podataka",
+    "isUsernameSuspicious": "Je li korisničko ime sumnjivo",
+    "statusLow": "nizak",
+    "statusMedium": "srednji",
+    "statusHigh": "visok",
+    "statusDeliverable": "isporučivo",
+    "statusUndeliverable": "neisporučivo",
+    "statusUnknown": "nepoznato",
+    "yes": "da",
+    "no": "ne",
+    "noBreaches": "bez curenja",
+    "oneTime": "1 put",
+    "times": "puta",
+    "hogsRatings": "HOGS ocjene",
+    "shipmentVolume": "Volumen pošiljki",
+    "clientTenure": "Staž klijenta",
+    "associatedCompanies": "Povezane tvrtke"
+  },
+  "WhyVerifyEmail": {
+    "title": "Zašto provjeravati e-poštu?",
+    "paragraph": "Provjera e-pošte pomaže u zaštiti vašeg poslovanja od prijevara, curenja podataka i skupih prekida, prepoznavanjem sumnjivih pošiljatelja prije nego što stignu do vašeg tima. U industriji cestovnog prijevoza, gdje tvrtke često primaju zahtjeve za isporuku, fakture i potvrde rezervacija, prevarantima se lako provući. Provjera e-pošte djeluje kao prva linija obrane, osiguravajući da prolazi samo legitimna komunikacija."
+  },
+  "SafetyBenefits": {
+    "title": "Sigurnosne prednosti",
+    "firstListItem": "Smanjite rizik od pada na phishing prijevare",
+    "secondListItem": "Zadržite ulazne pošte svog tima slobodnima od lažnih zahtjeva za isporuku i prijevarnih faktura",
+    "thirdListItem": "Zaštitite osjetljive podatke o klijentima i logistici od kibernetičkih kriminalaca",
+    "fourthListItem": "Održite povjerenje klijenata osiguravanjem svojih komunikacijskih kanala",
+    "buttonTitle": "Isprobajte besplatno"
+  },
+  "Footer": {
+    "contact": "Kontakt",
+    "headquarters": "Sjedište",
+    "headquartersAddress": "Adar sp. z o.o. Olivia Four al. Grunwaldzka 472b 80-309 Gdańsk",
+    "menu": "Izbornik",
+    "termsAndConditions": "Uvjeti i odredbe",
+    "privacyAndCookiePolicy": "Pravila privatnosti i kolačića",
+    "aboutHogs": "O Hogsu"
+  }
+}

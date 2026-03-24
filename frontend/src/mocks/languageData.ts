@@ -1,0 +1,25 @@
+import { Language } from "@/types/Language";
+
+export const languages: Language[] = [
+  { id: 1, languageName: "English", symbol: "EN" },
+  { id: 2, languageName: "Bulgarian", symbol: "BG" },
+  { id: 3, languageName: "Czech", symbol: "CZ" },
+  { id: 4, languageName: "German", symbol: "DE" },
+  { id: 5, languageName: "Danish", symbol: "DK" },
+  { id: 6, languageName: "Spanish", symbol: "ES" },
+  { id: 7, languageName: "Finnish", symbol: "FIN" },
+  { id: 8, languageName: "French", symbol: "FR" },
+  { id: 9, languageName: "Greek", symbol: "GR" },
+  { id: 10, languageName: "Croatian", symbol: "HR" },
+  { id: 11, languageName: "Italian", symbol: "IT" },
+  { id: 12, languageName: "Lithuanian", symbol: "LT" },
+  { id: 13, languageName: "Dutch", symbol: "NL" },
+  { id: 14, languageName: "Polish", symbol: "PL" },
+  { id: 15, languageName: "Portuguese", symbol: "PT" },
+  { id: 16, languageName: "Romanian", symbol: "RO" },
+  { id: 17, languageName: "Russian", symbol: "RU" },
+  { id: 18, languageName: "Swedish", symbol: "SE" },
+  { id: 19, languageName: "Slovak", symbol: "SK" },
+  { id: 20, languageName: "Turkish", symbol: "TR" },
+  { id: 21, languageName: "Ukrainian", symbol: "UA" },
+];

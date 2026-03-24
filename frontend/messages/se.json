@@ -1,0 +1,58 @@
+{
+  "EmailSection": {
+    "title": "E-postverifiering av",
+    "emailRequired": "E-post krävs",
+    "emailMessage": "Ogiltigt e-postformat",
+    "inputPlaceholder": "Kontrollera din entreprenör",
+    "loading": "Laddar",
+    "resultNotExistingHeading": "Inga resultat ännu",
+    "resultNotExistingParagraph": "Ange ett e-postmeddelande för att se resultat",
+    "summaryTitle": "Sammanfattning för",
+    "lowScore": "Det här e-postmeddelandet har misslyckats i de flesta säkerhets- och äkthetskontroller. Det finns en hög risk för bedrägerier eller nätfiskeförsök. Vi råder starkt till extrem försiktighet och rekommenderar att inte klicka på några länkar eller interagera ytterligare med den här avsändaren.",
+    "mediumScore": "Det här e-postmeddelandet har endast delvis klarat säkerhetskontroller. Vissa inkonsekvenser upptäcktes som kan tyda på en potentiell risk. Vi rekommenderar att du noggrant verifierar avsändarens identitet och e-postinnehållet innan du vidtar några åtgärder.",
+    "highScore": "Det här e-postmeddelandet har klarat de flesta säkerhets- och äkthetskontroller. Det är mycket troligt att det är äkta, med minimal risk för bedrägeri eller nätfiskeförsök. Du kan tryggt fortsätta med det här e-postmeddelandet.",
+    "trustworthiness": "Trovärdighet",
+    "addressRiskStatus": "Adressriskstatus",
+    "deliverabilityStatus": "Leveransstatus",
+    "domainRiskStatus": "Domänriskstatus",
+    "knownProvider": "Känd leverantör",
+    "appearedInDataBreaches": "Dök upp i dataintrång",
+    "isUsernameSuspicious": "Är användarnamnet misstänkt",
+    "statusLow": "låg",
+    "statusMedium": "mellan",
+    "statusHigh": "hög",
+    "statusDeliverable": "levererbar",
+    "statusUndeliverable": "olevererbar",
+    "statusUnknown": "okänd",
+    "yes": "ja",
+    "no": "nej",
+    "noBreaches": "inga intrång",
+    "oneTime": "1 gång",
+    "times": "gånger",
+    "hogsRatings": "HOGS-betyg",
+    "shipmentVolume": "Försändelsevolym",
+    "clientTenure": "Kundtid",
+    "associatedCompanies": "Associerade företag"
+  },
+  "WhyVerifyEmail": {
+    "title": "Varför verifiera en e-postadress?",
+    "paragraph": "Att verifiera e-post hjälper till att skydda ditt företag från bedrägerier, dataintrång och kostsamma störningar genom att identifiera misstänkta avsändare innan de når ditt team. Inom vägtransportbranschen, där företag ofta får leveransförfrågningar, fakturor och bokningsbekräftelser, är det lätt för bedragare att slinka igenom. E-postverifiering fungerar som ett första försvar, vilket säkerställer att endast legitim kommunikation kommer igenom."
+  },
+  "SafetyBenefits": {
+    "title": "Säkerhetsfördelar",
+    "firstListItem": "Minska risken för att falla för nätfiskebedrägerier",
+    "secondListItem": "Håll ditt teams inkorgar fria från falska leveransförfrågningar och bedrägliga fakturor",
+    "thirdListItem": "Skydda känsliga kund- och logistikdata från cyberbrottslingar",
+    "fourthListItem": "Behåll kundernas förtroende genom att säkra dina kommunikationskanaler",
+    "buttonTitle": "Prova gratis"
+  },
+  "Footer": {
+    "contact": "Kontakt",
+    "headquarters": "Huvudkontor",
+    "headquartersAddress": "Adar sp. z o.o. Olivia Four al. Grunwaldzka 472b 80-309 Gdańsk",
+    "menu": "Meny",
+    "termsAndConditions": "Allmänna villkor",
+    "privacyAndCookiePolicy": "Sekretess- och cookiepolicy",
+    "aboutHogs": "Om Hogs"
+  }
+}

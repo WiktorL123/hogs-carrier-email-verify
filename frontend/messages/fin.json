@@ -1,0 +1,58 @@
+{
+  "EmailSection": {
+    "title": "Sähköpostin vahvistus:",
+    "emailRequired": "Sähköposti vaaditaan",
+    "emailMessage": "Virheellinen sähköpostimuoto",
+    "inputPlaceholder": "Tarkista kumppanisi",
+    "loading": "Ladataan",
+    "resultNotExistingHeading": "Ei tuloksia vielä",
+    "resultNotExistingParagraph": "Syötä sähköposti nähdäksesi tulokset",
+    "summaryTitle": "Yhteenveto:",
+    "lowScore": "Tämä sähköposti ei ole läpäissyt useimpia turvallisuus- ja aitoustarkistuksia. Petoksen tai tietojenkalastelun riski on suuri. Suosittelemme äärimmäistä varovaisuutta, äläkä napsauta linkkejä tai jatka yhteydenpitoa tämän lähettäjän kanssa.",
+    "mediumScore": "Tämä sähköposti on läpäissyt turvallisuustarkistukset vain osittain. Havaittiin tiettyjä epäjohdonmukaisuuksia, jotka voivat viitata mahdolliseen riskiin. Suosittelemme vahvistamaan lähettäjän henkilöllisyyden ja sähköpostin sisällön huolellisesti ennen toimenpiteitä.",
+    "highScore": "Tämä sähköposti on läpäissyt useimmat turvallisuus- ja aitoustarkistukset. Se on erittäin todennäköisesti aito, ja petoksen tai tietojenkalastelun riski on minimaalinen. Voit jatkaa turvallisesti yhteydenpitoa tällä sähköpostilla.",
+    "trustworthiness": "Luotettavuus",
+    "addressRiskStatus": "Osoitteen riskitila",
+    "deliverabilityStatus": "Toimitettavuuden tila",
+    "domainRiskStatus": "Verkkotunnuksen riskitila",
+    "knownProvider": "Tunnettu palveluntarjoaja",
+    "appearedInDataBreaches": "Esiintynyt tietovuodoissa",
+    "isUsernameSuspicious": "Onko käyttäjätunnus epäilyttävä",
+    "statusLow": "matala",
+    "statusMedium": "keskitaso",
+    "statusHigh": "korkea",
+    "statusDeliverable": "toimitettavissa",
+    "statusUndeliverable": "ei toimitettavissa",
+    "statusUnknown": "tuntematon",
+    "yes": "kyllä",
+    "no": "ei",
+    "noBreaches": "ei vuotoja",
+    "oneTime": "1 kerran",
+    "times": "kertaa",
+    "hogsRatings": "HOGS-luokitukset",
+    "shipmentVolume": "Lähetysten määrä",
+    "clientTenure": "Asiakkuuden kesto",
+    "associatedCompanies": "Liittyvät yritykset"
+  },
+  "WhyVerifyEmail": {
+    "title": "Miksi vahvistaa sähköposti?",
+    "paragraph": "Sähköpostien vahvistaminen auttaa suojaamaan yritystäsi huijauksilta, tietovuodoilta ja kalliilta häiriöiltä tunnistamalla epäilyttävät lähettäjät ennen kuin ne saavuttavat tiimisi. Maantiekuljetusalalla, jossa yritykset saavat jatkuvasti kuljetuspyyntöjä, laskuja ja varausvahvistuksia, huijareiden on helppo livahtaa läpi. Sähköpostin vahvistus toimii etulinjan puolustuksena varmistaen, että vain laillinen viestintä pääsee läpi."
+  },
+  "SafetyBenefits": {
+    "title": "Turvallisuusedut",
+    "firstListItem": "Vähennä riskiä langeta tietojenkalasteluhuijauksiin",
+    "secondListItem": "Pidä tiimisi saapuneet-kansiot puhtaina väärennetyistä kuljetuspyynnöistä ja huijauslaskuista",
+    "thirdListItem": "Suojaa arkaluontoiset asiakas- ja logistiikkatiedot kyberrikollisilta",
+    "fourthListItem": "Ylläpidä asiakkaiden luottamusta turvaamalla viestintäkanavasi",
+    "buttonTitle": "Kokeile ilmaiseksi"
+  },
+  "Footer": {
+    "contact": "Yhteystiedot",
+    "headquarters": "Pääkonttori",
+    "headquartersAddress": "Adar sp. z o.o. Olivia Four al. Grunwaldzka 472b 80-309 Gdańsk",
+    "menu": "Valikko",
+    "termsAndConditions": "Käyttöehdot",
+    "privacyAndCookiePolicy": "Tietosuoja- ja evästekäytäntö",
+    "aboutHogs": "Tietoa Hogsista"
+  }
+}
