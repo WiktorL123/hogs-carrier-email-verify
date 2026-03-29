@@ -1,0 +1,59 @@
+{
+  "EmailSection": {
+    "title": "Ověření e-mailu od",
+    "emailRequired": "E-mail je povinný",
+    "emailMessage": "Neplatný formát e-mailu",
+    "inputPlaceholder": "Zkontrolujte svého dodavatele",
+    "loading": "Načítání",
+    "resultNotExistingHeading": "Zatím žádné výsledky",
+    "resultNotExistingParagraph": "Zadejte e-mail pro zobrazení výsledků",
+    "summaryTitle": "Shrnutí pro",
+    "lowScore": "Tento e-mail neprošel většinou bezpečnostních kontrol. Existuje vysoké riziko podvodu nebo pokusů o phishing. Důrazně doporučujeme extrémní opatrnost a nedoporučujeme klikat na žádné odkazy ani dále komunikovat s tímto odesílatelem.",
+    "mediumScore": "Tento e-mail prošel bezpečnostními kontrolami jen částečně. Byly zjištěny určité nesrovnalosti, které by mohly naznačovat potenciální riziko. Doporučujeme pečlivě ověřit totožnost odesílatele a obsah e-mailu před provedením jakékoli akce.",
+    "highScore": "Tento e-mail prošel většinou bezpečnostních kontrol. Je velmi pravděpodobné, že je pravý, s minimálním rizikem podvodu. Můžete s důvěrou pokračovat v komunikaci s tímto odesílatelem.",
+    "trustworthiness": "Důvěryhodnost",
+    "addressRiskStatus": "Stav rizika adresy",
+    "deliverabilityStatus": "Stav doručitelnosti",
+    "domainRiskStatus": "Stav rizika domény",
+    "knownProvider": "Známý poskytovatel",
+    "appearedInDataBreaches": "Objevilo se v úniku dat",
+    "isUsernameSuspicious": "Je uživatelské jméno podezřelé",
+    "statusLow": "nízké",
+    "statusMedium": "střední",
+    "statusHigh": "vysoké",
+    "statusDeliverable": "doručitelné",
+    "statusUndeliverable": "nedoručitelné",
+    "statusUnknown": "neznámé",
+    "yes": "ano",
+    "no": "ne",
+    "noBreaches": "žádné úniky",
+    "oneTime": "1 krát",
+    "times": "krát",
+    "hogsRatings": "Hodnocení HOGS",
+    "NoDataFromHogs": "Žádná data z HOGS",
+    "shipmentVolume": "Objem zásilek",
+    "clientTenure": "Délka spolupráce klienta",
+    "associatedCompanies": "Přidružené společnosti"
+  },
+  "WhyVerifyEmail": {
+    "title": "Proč ověřovat e-mail?",
+    "paragraph": "Ověřování e-mailů pomáhá chránit vaši firmu před podvody, úniky dat a nákladnými výpadky tím, že identifikuje podezřelé odesílatele dříve, než se dostanou k vašemu týmu. V odvětví silniční dopravy, kde společnosti často dostávají požadavky na doručení, faktury a potvrzení rezervací, se podvodníci snadno proklouznou. Ověření e-mailu funguje jako první obranná linie, která zajistí, že projde pouze legitimní komunikace."
+  },
+  "SafetyBenefits": {
+    "title": "Bezpečnostní výhody",
+    "firstListItem": "Snižte riziko, že naletíte na phishingové podvody",
+    "secondListItem": "Udržujte e-mailové schránky svého týmu bez falešných požadavků na doručení a podvodných faktur",
+    "thirdListItem": "Chraňte citlivá klientská a logistická data před kyberzločinci",
+    "fourthListItem": "Udržujte důvěru klientů zabezpečením komunikačních kanálů",
+    "buttonTitle": "Vyzkoušet zdarma"
+  },
+  "Footer": {
+    "contact": "Kontakt",
+    "headquarters": "Sídlo",
+    "headquartersAddress": "Adar sp. z o.o. Olivia Four al. Grunwaldzka 472b 80-309 Gdańsk",
+    "menu": "Menu",
+    "termsAndConditions": "Obchodní podmínky",
+    "privacyAndCookiePolicy": "Zásady ochrany osobních údajů a cookies",
+    "aboutHogs": "O Hogs"
+  }
+}

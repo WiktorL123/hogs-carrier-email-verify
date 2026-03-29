@@ -1,0 +1,59 @@
+{
+  "EmailSection": {
+    "title": "Vérification d'email par",
+    "emailRequired": "L'email est requis",
+    "emailMessage": "Format d'email invalide",
+    "inputPlaceholder": "Vérifiez votre sous-traitant",
+    "loading": "Chargement",
+    "resultNotExistingHeading": "Aucun résultat pour le moment",
+    "resultNotExistingParagraph": "Entrez un email pour voir les résultats",
+    "summaryTitle": "Résumé pour",
+    "lowScore": "Cet email a échoué à la plupart des contrôles de sécurité et d'authenticité. Il y a un risque élevé de fraude ou de tentatives de phishing. Nous conseillons une extrême prudence et recommandons de ne pas cliquer sur les liens ni d'interagir davantage avec cet expéditeur.",
+    "mediumScore": "Cet email n'a que partiellement réussi les contrôles de sécurité. Certaines incohérences ont été détectées, ce qui pourrait indiquer un risque potentiel. Nous recommandons de vérifier attentivement l'identité de l'expéditeur et le contenu de l'email avant d'agir.",
+    "highScore": "Cet email a réussi la plupart des contrôles de sécurité et d'authenticité. Il est très probablement authentique, avec un risque minimal de fraude ou de phishing. Vous pouvez poursuivre vos échanges en toute confiance avec cet email.",
+    "trustworthiness": "Fiabilité",
+    "addressRiskStatus": "Niveau de risque de l'adresse",
+    "deliverabilityStatus": "Statut de délivrabilité",
+    "domainRiskStatus": "Niveau de risque du domaine",
+    "knownProvider": "Fournisseur connu",
+    "appearedInDataBreaches": "Apparu dans des fuites de données",
+    "isUsernameSuspicious": "Le nom d'utilisateur est-il suspect",
+    "statusLow": "faible",
+    "statusMedium": "moyen",
+    "statusHigh": "élevé",
+    "statusDeliverable": "livrable",
+    "statusUndeliverable": "non livrable",
+    "statusUnknown": "inconnu",
+    "yes": "oui",
+    "no": "non",
+    "noBreaches": "aucune fuite",
+    "oneTime": "1 fois",
+    "times": "fois",
+    "hogsRatings": "Évaluations HOGS",
+    "NoDataFromHogs": "Aucune donnée de HOGS",
+    "shipmentVolume": "Volume d'expédition",
+    "clientTenure": "Ancienneté du client",
+    "associatedCompanies": "Entreprises associées"
+  },
+  "WhyVerifyEmail": {
+    "title": "Pourquoi vérifier un email ?",
+    "paragraph": "La vérification des emails aide à protéger votre entreprise contre les escroqueries, les fuites de données et les perturbations coûteuses en identifiant les expéditeurs suspects avant qu'ils n'atteignent votre équipe. Dans le secteur du transport routier, où les entreprises reçoivent fréquemment des demandes de livraison, des factures et des confirmations de réservation, il est facile pour les fraudeurs de s'infiltrer. La vérification des emails agit comme une première ligne de défense, garantissant que seule la communication légitime passe."
+  },
+  "SafetyBenefits": {
+    "title": "Avantages en matière de sécurité",
+    "firstListItem": "Réduisez le risque de tomber dans les pièges du phishing",
+    "secondListItem": "Gardez les boîtes de réception de votre équipe à l'abri des fausses demandes de livraison et des factures frauduleuses",
+    "thirdListItem": "Protégez les données sensibles des clients et de la logistique contre les cybercriminels",
+    "fourthListItem": "Maintenez la confiance des clients en sécurisant vos canaux de communication",
+    "buttonTitle": "Essayer gratuitement"
+  },
+  "Footer": {
+    "contact": "Contact",
+    "headquarters": "Siège social",
+    "headquartersAddress": "Adar sp. z o.o. Olivia Four al. Grunwaldzka 472b 80-309 Gdańsk",
+    "menu": "Menu",
+    "termsAndConditions": "Conditions générales",
+    "privacyAndCookiePolicy": "Politique de confidentialité et cookies",
+    "aboutHogs": "À propos de Hogs"
+  }
+}

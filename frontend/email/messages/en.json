@@ -1,0 +1,59 @@
+{
+  "EmailSection": {
+    "title": "Email verification by",
+    "emailRequired": "Email is required",
+    "emailMessage": "Invalid email format",
+    "inputPlaceholder": "Check your contractor",
+    "loading": "Loading",
+    "resultNotExistingHeading": "No results yet",
+    "resultNotExistingParagraph": "Enter an email to see results",
+    "summaryTitle": "Summary for",
+    "lowScore": "This email has failed most security and authenticity checks. There is a high risk of fraud or phishing attempts. We strongly advise extreme caution and recommend against clicking any links or engaging further with this sender.",
+    "mediumScore": "This email has only partially passed security checks. Certain inconsistencies were detected that could indicate a potential risk. We recommend verifying the sender's identity and the email content carefully before taking any action.",
+    "highScore": "This email has passed most security and authenticity checks. It’s very likely to be genuine, with minimal risk of fraud or phishing attempts. You may proceed confidently with this email for further engagement.",
+    "trustworthiness": "Trustworthiness",
+    "addressRiskStatus": "Address risk status",
+    "deliverabilityStatus": "Deliverability status",
+    "domainRiskStatus": "Domain risk status",
+    "knownProvider": "Known provider",
+    "appearedInDataBreaches": "Appeared in data breaches",
+    "isUsernameSuspicious": "Is username suspicious",
+    "statusLow": "low",
+    "statusMedium": "medium",
+    "statusHigh": "high",
+    "statusDeliverable": "deliverable",
+    "statusUndeliverable": "undeliverable",
+    "statusUnknown": "unknown",
+    "yes": "yes",
+    "no": "no",
+    "noBreaches": "no breaches",
+    "oneTime": "1 time",
+    "times": "times",
+    "hogsRatings": "HOGS ratings",
+    "NoDataFromHogs": "No Data from HOGS",
+    "shipmentVolume": "Shipment volume",
+    "clientTenure": "Client tenure",
+    "associatedCompanies": "Associated companies"
+  },
+  "WhyVerifyEmail": {
+    "title": "Why verify an email?",
+    "paragraph": "Verifying emails helps protect your business from scams, data breaches, and costly disruptions by identifying suspicious senders before they reach your team. In the road transport industry, where companies frequently receive delivery requests, invoices, and booking confirmations, it's easy for fraudsters to slip through. Email verification acts as a frontline defense, ensuring only legitimate communication gets through."
+  },
+  "SafetyBenefits": {
+    "title": "Safety benefits",
+    "firstListItem": "Reduce the risk of failing phising scams",
+    "secondListItem": "Keep your team's inboxes free from fake delivery requests and fraudulent invoices",
+    "thirdListItem": "Protect sensitive client and logistics data from cybercriminals",
+    "fourthListItem": "Maintain trust with clients by securing your communication channels",
+    "buttonTitle": "Try for free"
+  },
+  "Footer": {
+    "contact": "Contact",
+    "headquarters": "Headquarters",
+    "headquartersAddress": "Adar sp. z o.o. Olivia Four al. Grunwaldzka 472b 80-309 Gdańsk",
+    "menu": "Menu",
+    "termsAndConditions": "Terms and conditions",
+    "privacyAndCookiePolicy": "Privacy and cookie policy",
+    "aboutHogs": "About Hogs"
+  }
+}
