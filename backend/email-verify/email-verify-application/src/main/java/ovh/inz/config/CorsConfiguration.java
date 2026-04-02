@@ -11,7 +11,7 @@ public class CorsConfiguration implements WebMvcConfigurer {
         registry.addMapping("/**")
                 .allowedOrigins(
                         "http://localhost:3001",
-                        "http://email-verify.hogs-carrier.inz.ovh",
+                        "https://email-verify.hogs-carrier.inz.ovh",
                         "http://127.0.0.1:3001"
                 )
                 .allowedMethods("POST", "GET", "OPTIONS")

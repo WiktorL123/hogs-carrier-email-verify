@@ -1,5 +1,5 @@
 import { apiResponse } from "@/types/Response";
-import { TrustScoreLine } from "./TrustScoreLine";
+import { ScoreLine } from "./ScoreLine";
 import {
   AtSymbolIcon,
   PaperAirplaneIcon,
@@ -31,8 +31,8 @@ export function TrustScore({ result }: TrustScoreProps) {
         className={`px-sm py-xl md:px-2xl bg-card-bg shadow-sm border border-card-border color-base-400 rounded-[1.5rem] w-full sm:max-w-[45rem]`}
       >
         <div className="flex justify-center">
-          <div className="flex flex-col gap-xs">
-            <TrustScoreLine
+          <div className="flex flex-col gap-md sm:gap-xs">
+            <ScoreLine
               icon={AtSymbolIcon}
               title={t("addressRiskStatus")}
               value={
@@ -50,7 +50,7 @@ export function TrustScore({ result }: TrustScoreProps) {
                     : "text-success-600"
               }`}
             />
-            <TrustScoreLine
+            <ScoreLine
               icon={PaperAirplaneIcon}
               title={t("deliverabilityStatus")}
               value={
@@ -68,7 +68,7 @@ export function TrustScore({ result }: TrustScoreProps) {
                     : "text-success-600"
               }`}
             />
-            <TrustScoreLine
+            <ScoreLine
               icon={GlobeAltIcon}
               title={t("domainRiskStatus")}
               value={
@@ -82,7 +82,7 @@ export function TrustScore({ result }: TrustScoreProps) {
                   : "text-success-600"
               }`}
             />
-            <TrustScoreLine
+            <ScoreLine
               icon={CloudIcon}
               title={t("knownProvider")}
               value={result?.emailQuality.freeEmail ? t("yes") : t("no")}
@@ -92,7 +92,7 @@ export function TrustScore({ result }: TrustScoreProps) {
                   : "text-amber-400"
               }`}
             />
-            <TrustScoreLine
+            <ScoreLine
               icon={ShieldExclamationIcon}
               title={t("appearedInDataBreaches")}
               value={
@@ -108,7 +108,7 @@ export function TrustScore({ result }: TrustScoreProps) {
                   : "text-danger-600"
               }`}
             />
-            <TrustScoreLine
+            <ScoreLine
               icon={MagnifyingGlassIcon}
               title={t("isUsernameSuspicious")}
               value={

@@ -10,19 +10,36 @@ export const mockApiResponse = {
   },
   ratings: [
     {
-      ratingType: "freightsCount",
-      comment: "High shipment volume detected",
-      rating: 4,
+      ratingType: "scam",
+      rating: -1,
+    },
+    {
+      ratingType: "scamDomain",
+      rating: 0,
+    },
+    {
+      ratingType: "generalDomain",
+      rating: 0,
     },
     {
       ratingType: "firstFreight",
-      comment: "Client active for 3 years",
-      rating: 5,
+      rating: 2,
     },
     {
-      ratingType: "associatedCompanies",
-      comment: "No suspicious associated entities",
+      ratingType: "freightsCount",
       rating: 3,
     },
+    {
+      ratingType: "invoicesLate",
+      rating: 1,
+    },
+    // {
+    //   ratingType: "associatedCompanies",
+    //   rating: 3,
+    // },
+    {
+      ratingType: "companiesCount",
+      rating: 1
+    }
   ],
 };

@@ -31,8 +31,52 @@
     "times": "times",
     "hogsRatings": "HOGS ratings",
     "NoDataFromHogs": "No Data from HOGS",
-    "shipmentVolume": "Shipment volume",
-    "clientTenure": "Client tenure",
+    "scam": {
+      "title": "Scam",
+      "-1": "Email reported as scam",
+      "0": "No scam reports for this email"
+    },
+    "scamDomain": {
+      "title": "Scam domain",
+      "-1": "Domain reported as scam",
+      "0": "No scam reports for this domain"
+    },
+    "generalDomain": {
+      "title": "General domain",
+      "0": "This is not a well known domain",
+      "3": "This is a known domain"
+    },
+    "firstFreight": {
+      "title": "First freight",
+      "-1": "Unknown",
+      "0": "New client",
+      "1": "Known client",
+      "2": "Loyal client",
+      "3": "Long-time loyal client"
+    },
+    "freightsCount": {
+      "title": "Client tenure",
+      "-1": "Unknown",
+      "0": "Rare client",
+      "1": "Occasional client",
+      "2": "Frequent client",
+      "3": "Popular client"
+    },
+    "invoicesLate": {
+      "title": "Invoices late",
+      "-1": "Very frequent invoice delays",
+      "0": "Frequent invoice delays",
+      "1": "Occasional invoice delays",
+      "2": "Few invoice delays",
+      "3": "No invoice delays"
+    },
+    "companiesCount": {
+      "title": "Companies count",
+      "0": "No associated companies",
+      "1": "Single associated company",
+      "2": "Multiple companies",
+      "3": "Many associated companies"
+    },
     "associatedCompanies": "Associated companies"
   },
   "WhyVerifyEmail": {

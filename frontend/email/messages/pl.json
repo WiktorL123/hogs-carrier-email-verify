@@ -31,6 +31,52 @@
     "times": "razy",
     "hogsRatings": "Oceny HOGS",
     "NoDataFromHogs": "Brak danych z HOGS",
+    "scam": {
+    "title": "Oszustwo",
+    "-1": "E-mail zgłoszony jako oszustwo",
+    "0": "Brak zgłoszeń o oszustwie dla tego e-maila"
+  },
+  "scamDomain": {
+    "title": "Domena oszustów",
+    "-1": "Domena zgłoszona jako oszustwo",
+    "0": "Brak zgłoszeń o oszustwie dla tej domeny"
+  },
+  "generalDomain": {
+    "title": "Domena ogólna",
+    "0": "To nie jest dobrze znana domena",
+    "3": "To jest znana domena"
+  },
+  "firstFreight": {
+    "title": "Pierwszy fracht",
+    "-1": "Nieznany",
+    "0": "Nowy klient",
+    "1": "Znany klient",
+    "2": "Lojalny klient",
+    "3": "Długoletni lojalny klient"
+  },
+  "freightsCount": {
+    "title": "Staż klienta",
+    "-1": "Nieznany",
+    "0": "Rzadki klient",
+    "1": "Okazjonalny klient",
+    "2": "Częsty klient",
+    "3": "Popularny klient"
+  },
+  "invoicesLate": {
+    "title": "Opóźnienia faktur",
+    "-1": "Bardzo częste opóźnienia faktur",
+    "0": "Częste opóźnienia faktur",
+    "1": "Okazjonalne opóźnienia faktur",
+    "2": "Rzadkie opóźnienia faktur",
+    "3": "Brak opóźnień faktur"
+  },
+  "companiesCount": {
+    "title": "Liczba firm",
+    "0": "Brak powiązanych firm",
+    "1": "Jedna powiązana firma",
+    "2": "Kilka powiązanych firm",
+    "3": "Wiele powiązanych firm"
+  },
     "shipmentVolume": "Wolumen przesyłek",
     "clientTenure": "Staż klienta",
     "associatedCompanies": "Powiązane firmy"
