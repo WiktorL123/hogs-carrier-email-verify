@@ -41,3 +41,4 @@ email-verify-application/src/main/resources/application-l*
 
 **/.idea/*
 **/.vscode
+.env

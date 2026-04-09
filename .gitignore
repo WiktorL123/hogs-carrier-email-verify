@@ -1,0 +1,3 @@
+.idea
+frontend/email/.env
+backend/email-verify/.env
