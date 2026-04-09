@@ -3,6 +3,7 @@
     "title": "Verificação de email por",
     "emailRequired": "Email é obrigatório",
     "emailMessage": "Formato de email inválido",
+    "nonStandardCharsWarning": "Este e-mail contém caracteres não padronizados",
     "inputPlaceholder": "Verifique o seu contratante",
     "loading": "Carregando",
     "resultNotExistingHeading": "Ainda sem resultados",
@@ -31,8 +32,52 @@
     "times": "vezes",
     "hogsRatings": "Classificações HOGS",
     "NoDataFromHogs": "Sem dados do HOGS",
-    "shipmentVolume": "Volume de remessas",
-    "clientTenure": "Tempo de cliente",
+    "scam": {
+      "title": "Fraude",
+      "-1": "E-mail relatado como fraude",
+      "0": "Nenhum relatório de fraude para este e-mail"
+    },
+    "scamDomain": {
+      "title": "Domínio de fraude",
+      "-1": "Domínio relatado como fraude",
+      "0": "Nenhum relatório de fraude para este domínio"
+    },
+    "generalDomain": {
+      "title": "Domínio geral",
+      "0": "Este não é um domínio bem conhecido",
+      "3": "Este é um domínio conhecido"
+    },
+    "firstFreight": {
+      "title": "Primeiro frete",
+      "-1": "Desconhecido",
+      "0": "Novo cliente",
+      "1": "Cliente conhecido",
+      "2": "Cliente fiel",
+      "3": "Cliente fiel de longa data"
+    },
+    "freightsCount": {
+      "title": "Tempo de cliente",
+      "-1": "Desconhecido",
+      "0": "Cliente raro",
+      "1": "Cliente ocasional",
+      "2": "Cliente frequente",
+      "3": "Cliente popular"
+    },
+    "invoicesLate": {
+      "title": "Faturas atrasadas",
+      "-1": "Atrasos de faturas muito frequentes",
+      "0": "Atrasos de faturas frequentes",
+      "1": "Atrasos de faturas ocasionais",
+      "2": "Poucos atrasos de faturas",
+      "3": "Sem atrasos de faturas"
+    },
+    "companiesCount": {
+      "title": "Contagem de empresas",
+      "0": "Nenhuma empresa associada",
+      "1": "Empresa associada única",
+      "2": "Várias empresas",
+      "3": "Muitas empresas associadas"
+    },
     "associatedCompanies": "Empresas associadas"
   },
   "WhyVerifyEmail": {

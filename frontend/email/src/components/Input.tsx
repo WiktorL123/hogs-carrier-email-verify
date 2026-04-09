@@ -11,6 +11,8 @@ interface InputProps extends React.ComponentPropsWithoutRef<"input"> {
   valid?: boolean;
   label?: string;
   errorMessage?: string;
+  inputLength?: number;
+  inputLengthMax?: number;
 }
 
 export const Input = forwardRef(function Input(
@@ -20,6 +22,8 @@ export const Input = forwardRef(function Input(
     valid,
     label,
     errorMessage,
+    inputLength,
+    inputLengthMax,
     id,
     required,
     ...props
@@ -37,7 +41,7 @@ export const Input = forwardRef(function Input(
   const { theme } = context;
 
   return (
-    <div className="inline-flex flex-col gap-3xs">
+    <div className="inline-flex flex-col gap-3xs w-full">
       {label && (
         <div>
           <Label htmlFor={id} required={required}>
@@ -64,11 +68,11 @@ export const Input = forwardRef(function Input(
           id={id}
           placeholder={placeholder}
           className={`
-            bg-transparent outline-none border-none
+            flex-1 bg-transparent outline-none border-none
             figtree-14-400 tracking-wide text-input-text
             placeholder-figtree-14-400 placeholder:tracking-wide placeholder:text-input-placeholder
             ${variant === "input" ? "p-sm" : ""}       
-            ${variant === "search" ? "py-sm pl-lg min-w-[25rem]" : ""}       
+            ${variant === "search" ? "py-sm pl-lg" : ""}       
           `}
         />
 
@@ -83,9 +87,17 @@ export const Input = forwardRef(function Input(
           </button>
         )}
       </div>
-      <div className="w-full h-2xl flex items-center justify-center text-danger-500 figtree-14-600">
+
+      <p
+        className={`flex justify-end px-3xl h-xs ${inputLength === inputLengthMax ? "text-danger-500" : "text-warning-500"}`}
+      >
+        {inputLengthMax && inputLength && 0.7 * inputLengthMax < inputLength
+          ? inputLength + "/" + inputLengthMax
+          : ""}
+      </p>
+      <p className="w-full h-2xl flex items-center justify-center text-danger-500 figtree-14-600">
         {errorMessage !== undefined ? errorMessage : ""}
-      </div>
+      </p>
     </div>
   );
 });

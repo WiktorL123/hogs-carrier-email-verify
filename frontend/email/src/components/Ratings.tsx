@@ -7,6 +7,7 @@ import {
   GlobeAltIcon,
   DocumentTextIcon,
   QuestionMarkCircleIcon,
+  BuildingOfficeIcon,
 } from "@heroicons/react/16/solid";
 import { ScoreLine } from "./ScoreLine";
 
@@ -17,7 +18,7 @@ interface RatingsProps {
 export function Ratings({ result }: RatingsProps) {
   const t = useTranslations("EmailSection");
   const ratings = result?.ratings ?? [];
-  console.log(ratings)
+  console.log(ratings);
 
   const getIcon = (ratingType: string): React.ElementType => {
     switch (ratingType) {
@@ -33,7 +34,7 @@ export function Ratings({ result }: RatingsProps) {
       case "invoicesLate":
         return DocumentTextIcon;
       case "companiesCount":
-        return DocumentTextIcon;//do zmiany
+        return BuildingOfficeIcon;
       default:
         return QuestionMarkCircleIcon;
     }
@@ -60,12 +61,12 @@ export function Ratings({ result }: RatingsProps) {
       <div className="flex flex-row justify-center items-center gap-xs">
         <h1 className="poppins-18-600 text-text-header">{t("hogsRatings")}:</h1>
       </div>
-      <div className="px-sm py-xl md:px-2xl bg-card-bg shadow-sm border border-card-border color-base-400 rounded-[1.5rem] w-full sm:max-w-[45rem]">
+      <div className="px-sm py-xl sm:px-2xl bg-card-bg shadow-sm border border-card-border color-base-400 rounded-[1.5rem] w-full sm:max-w-[50rem]">
         <div className="flex justify-center">
-          <div className="flex flex-col gap-lg sm:gap-xs">
+          <div className="flex flex-col sm:w-full gap-lg sm:gap-xs">
             {ratings?.length > 0 ? (
               ratings
-                // .slice(0, -1)
+                .slice(0, -1)
                 .map((rating, index) => (
                   <ScoreLine
                     key={index}

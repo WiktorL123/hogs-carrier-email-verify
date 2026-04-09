@@ -3,6 +3,7 @@
     "title": "Sähköpostin vahvistus:",
     "emailRequired": "Sähköposti vaaditaan",
     "emailMessage": "Virheellinen sähköpostimuoto",
+    "nonStandardCharsWarning": "Tämä sähköposti sisältää epätyypillisiä merkkejä",
     "inputPlaceholder": "Tarkista kumppanisi",
     "loading": "Ladataan",
     "resultNotExistingHeading": "Ei tuloksia vielä",
@@ -31,8 +32,52 @@
     "times": "kertaa",
     "hogsRatings": "HOGS-luokitukset",
     "NoDataFromHogs": "Ei tietoja HOGS",
-    "shipmentVolume": "Lähetysten määrä",
-    "clientTenure": "Asiakkuuden kesto",
+    "scam": {
+      "title": "Huijaus",
+      "-1": "Sähköposti on ilmoitettu huijaukseksi",
+      "0": "Tälle sähköpostille ei ole huijausilmoituksia"
+    },
+    "scamDomain": {
+      "title": "Huijausverkkotunnus",
+      "-1": "Verkkotunnus on ilmoitettu huijaukseksi",
+      "0": "Tälle verkkotunnukselle ei ole huijausilmoituksia"
+    },
+    "generalDomain": {
+      "title": "Yleinen verkkotunnus",
+      "0": "Tämä ei ole tunnettu verkkotunnus",
+      "3": "Tämä on tunnettu verkkotunnus"
+    },
+    "firstFreight": {
+      "title": "Ensimmäinen kuljetus",
+      "-1": "Tuntematon",
+      "0": "Uusi asiakas",
+      "1": "Tunnettu asiakas",
+      "2": "Uskollinen asiakas",
+      "3": "Pitkäaikainen uskollinen asiakas"
+    },
+    "freightsCount": {
+      "title": "Asiakassuhde",
+      "-1": "Tuntematon",
+      "0": "Harvinainen asiakas",
+      "1": "Satunnainen asiakas",
+      "2": "Usein asioiva asiakas",
+      "3": "Tärkeä asiakas"
+    },
+    "invoicesLate": {
+      "title": "Myöhästyneet laskut",
+      "-1": "Erittäin usein myöhästyneitä laskuja",
+      "0": "Usein myöhästyneitä laskuja",
+      "1": "Satunnaisesti myöhästyneitä laskuja",
+      "2": "Harvoin myöhästyneitä laskuja",
+      "3": "Ei myöhästyneitä laskuja"
+    },
+    "companiesCount": {
+      "title": "Yritysten määrä",
+      "0": "Ei liitettyjä yrityksiä",
+      "1": "Yksi liitetty yritys",
+      "2": "Useita liitettyjä yrityksiä",
+      "3": "Monia liitettyjä yrityksiä"
+    },
     "associatedCompanies": "Liittyvät yritykset"
   },
   "WhyVerifyEmail": {

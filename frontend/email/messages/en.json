@@ -3,6 +3,7 @@
     "title": "Email verification by",
     "emailRequired": "Email is required",
     "emailMessage": "Invalid email format",
+    "nonStandardCharsWarning": "This email contains non-standard characters",
     "inputPlaceholder": "Check your contractor",
     "loading": "Loading",
     "resultNotExistingHeading": "No results yet",

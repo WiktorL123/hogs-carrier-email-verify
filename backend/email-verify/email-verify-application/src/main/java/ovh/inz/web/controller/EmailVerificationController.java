@@ -1,5 +1,6 @@
 package ovh.inz.web.controller;
 
+import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -25,8 +26,9 @@ public class EmailVerificationController {
 
 
     @PostMapping("/verify-email")
-    public VerificationResultDto verifyEmail(@RequestBody EmailDto email){
-        AggregationResult result = port.verify(new VerifyEmailCommand(email.getEmail()));
+    public VerificationResultDto verifyEmail( @Valid @RequestBody EmailDto email){
+        String normalizedEmail = mapper.normalizeEmail(email.getEmail());
+        AggregationResult result = port.verify(new VerifyEmailCommand(normalizedEmail));
 
         MongoResult ratingsDomain = result.mongoRatings();
         AbstractApiResult apiResult = result.emailQuality();

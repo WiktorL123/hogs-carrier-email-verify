@@ -3,6 +3,7 @@
     "title": "El. pašto patvirtinimas iš",
     "emailRequired": "El. paštas yra privalomas",
     "emailMessage": "Neteisingas el. pašto formatas",
+    "nonStandardCharsWarning": "Šiame el. pašto adrese yra nestandartinių simbolių",
     "inputPlaceholder": "Patikrinkite savo rangovą",
     "loading": "Įkeliama",
     "resultNotExistingHeading": "Kol kas rezultatų nėra",
@@ -31,8 +32,52 @@
     "times": "kartus",
     "hogsRatings": "HOGS įvertinimai",
     "NoDataFromHogs": "Nėra duomenų iš HOGS",
-    "shipmentVolume": "Siuntų kiekis",
-    "clientTenure": "Kliento stažas",
+    "scam": {
+      "title": "Sukčiavimas",
+      "-1": "El. paštas praneštas kaip sukčiavimas",
+      "0": "Pranešimų apie sukčiavimą šiuo el. paštu nėra"
+    },
+    "scamDomain": {
+      "title": "Sukčiavimo domenas",
+      "-1": "Domenas praneštas kaip sukčiavimas",
+      "0": "Pranešimų apie sukčiavimą šiame domene nėra"
+    },
+    "generalDomain": {
+      "title": "Bendras domenas",
+      "0": "Tai nėra gerai žinomas domenas",
+      "3": "Tai yra žinomas domenas"
+    },
+    "firstFreight": {
+      "title": "Pirmas krovinys",
+      "-1": "Nežinoma",
+      "0": "Naujas klientas",
+      "1": "Žinomas klientas",
+      "2": "Lojalus klientas",
+      "3": "Ilgalaikis lojalus klientas"
+    },
+    "freightsCount": {
+      "title": "Kliento stažas",
+      "-1": "Nežinoma",
+      "0": "Retas klientas",
+      "1": "Atsitiktinis klientas",
+      "2": "Dažnas klientas",
+      "3": "Populiarus klientas"
+    },
+    "invoicesLate": {
+      "title": "Vėluojančios sąskaitos",
+      "-1": "Labai dažni sąskaitų vėlavimai",
+      "0": "Dažni sąskaitų vėlavimai",
+      "1": "Atsitiktiniai sąskaitų vėlavimai",
+      "2": "Nedaug sąskaitų vėlavimų",
+      "3": "Sąskaitos nevėluoja"
+    },
+    "companiesCount": {
+      "title": "Įmonių skaičius",
+      "0": "Susijusių įmonių nėra",
+      "1": "Viena susijusi įmonė",
+      "2": "Keliolika įmonių",
+      "3": "Daug susijusių įmonių"
+    },
     "associatedCompanies": "Susijusios įmonės"
   },
   "WhyVerifyEmail": {
