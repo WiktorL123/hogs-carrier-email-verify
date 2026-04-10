@@ -16,7 +16,8 @@ export function EmailSection() {
   const context = useContext(ThemeContext);
   const t = useTranslations("EmailSection");
   const [isValidEmail, setIsValidEmail] = useState(false);
-  const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+  // const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
 
   const [submittedEmail, setSubmittedEmail] = useState("");
 
@@ -133,33 +134,38 @@ export function EmailSection() {
         <Logo variant={theme} />
       </div>
       <div className="flex flex-col gap-xl items-center justify-center w-full">
-        <Controller
-          name="email"
-          control={control}
-          rules={{
-            required: t("emailRequired"),
-            pattern: {
-              value: emailRegex,
-              message: t("emailMessage"),
-            },
-          }}
-          render={({ field }) => (
-            <Input
-              {...field}
-              placeholder={t("inputPlaceholder")}
-              variant="search"
-              valid={isValidEmail}
-              errorMessage={errors.email?.message}
-              disabled={isPending}
-              onChange={(e) => {
-                field.onChange(e);
-
-                const value = e.target.value;
-                setIsValidEmail(emailRegex.test(value));
-              }}
-            />
-          )}
-        />
+        <div className="w-full max-w-[52.4rem] px-[1.2rem]">
+          <Controller
+            name="email"
+            control={control}
+            rules={{
+              required: t("emailRequired"),
+              pattern: {
+                value: emailRegex,
+                message: t("emailMessage"),
+              },
+            }}
+            render={({ field }) => (
+              <Input
+                {...field}
+                maxLength={254}
+                placeholder={t("inputPlaceholder")}
+                variant="search"
+                valid={isValidEmail}
+                errorMessage={errors.email?.message}
+                disabled={isPending}
+                inputLengthMax={254}
+                inputLength={emailValue.length}
+                onChange={(e) => {
+                  let value = e.target.value;
+                  value = value.replace(/\s/g, "").toLowerCase();
+                  field.onChange(value);
+                  setIsValidEmail(emailRegex.test(value));
+                }}
+              />
+            )}
+          />
+        </div>
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}

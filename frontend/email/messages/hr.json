@@ -3,6 +3,7 @@
     "title": "Provjera e-pošte od",
     "emailRequired": "E-pošta je obavezna",
     "emailMessage": "Nevažeći format e-pošte",
+    "nonStandardCharsWarning": "Ova e-pošta sadrži nestandardne znakove",
     "inputPlaceholder": "Provjerite svog ugovaratelja",
     "loading": "Učitavanje",
     "resultNotExistingHeading": "Još nema rezultata",
@@ -31,8 +32,52 @@
     "times": "puta",
     "hogsRatings": "HOGS ocjene",
     "NoDataFromHogs": "Nema podataka iz HOGS",
-    "shipmentVolume": "Volumen pošiljki",
-    "clientTenure": "Staž klijenta",
+    "scam": {
+      "title": "Prijevara",
+      "-1": "E-pošta prijavljena kao prijevara",
+      "0": "Nema prijava prijevare za ovu e-poštu"
+    },
+    "scamDomain": {
+      "title": "Domena prijevare",
+      "-1": "Domena prijavljena kao prijevara",
+      "0": "Nema prijava prijevare za ovu domenu"
+    },
+    "generalDomain": {
+      "title": "Opća domena",
+      "0": "Ovo nije poznata domena",
+      "3": "Ovo je poznata domena"
+    },
+    "firstFreight": {
+      "title": "Prvi teret",
+      "-1": "Nepoznato",
+      "0": "Novi klijent",
+      "1": "Poznati klijent",
+      "2": "Lojalan klijent",
+      "3": "Dugogodišnji lojalan klijent"
+    },
+    "freightsCount": {
+      "title": "Staž klijenta",
+      "-1": "Nepoznato",
+      "0": "Rijedak klijent",
+      "1": "Povremeni klijent",
+      "2": "Čest klijent",
+      "3": "Popularan klijent"
+    },
+    "invoicesLate": {
+      "title": "Kašnjenje faktura",
+      "-1": "Vrlo česta kašnjenja faktura",
+      "0": "Česta kašnjenja faktura",
+      "1": "Povremena kašnjenja faktura",
+      "2": "Rijetka kašnjenja faktura",
+      "3": "Nema kašnjenja faktura"
+    },
+    "companiesCount": {
+      "title": "Broj tvrtki",
+      "0": "Nema povezanih tvrtki",
+      "1": "Jedna povezana tvrtka",
+      "2": "Više tvrtki",
+      "3": "Mnogo povezanih tvrtki"
+    },
     "associatedCompanies": "Povezane tvrtke"
   },
   "WhyVerifyEmail": {

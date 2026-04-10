@@ -3,6 +3,7 @@
     "title": "Ověření e-mailu od",
     "emailRequired": "E-mail je povinný",
     "emailMessage": "Neplatný formát e-mailu",
+    "nonStandardCharsWarning": "Tento e-mail obsahuje nestandardní znaky",
     "inputPlaceholder": "Zkontrolujte svého dodavatele",
     "loading": "Načítání",
     "resultNotExistingHeading": "Zatím žádné výsledky",
@@ -31,8 +32,52 @@
     "times": "krát",
     "hogsRatings": "Hodnocení HOGS",
     "NoDataFromHogs": "Žádná data z HOGS",
-    "shipmentVolume": "Objem zásilek",
-    "clientTenure": "Délka spolupráce klienta",
+    "scam": {
+      "title": "Podvod",
+      "-1": "E-mail byl nahlášen jako podvod",
+      "0": "Pro tento e-mail nejsou žádná hlášení o podvodu"
+    },
+    "scamDomain": {
+      "title": "Podvodná doména",
+      "-1": "Doména byla nahlášena jako podvod",
+      "0": "Pro tuto doménu nejsou žádná hlášení o podvodu"
+    },
+    "generalDomain": {
+      "title": "Obecná doména",
+      "0": "Toto není známá doména",
+      "3": "Toto je známá doména"
+    },
+    "firstFreight": {
+      "title": "První přeprava",
+      "-1": "Neznámý",
+      "0": "Nový klient",
+      "1": "Známý klient",
+      "2": "Loajální klient",
+      "3": "Dlouhodobě loajální klient"
+    },
+    "freightsCount": {
+      "title": "Délka spolupráce",
+      "-1": "Neznámý",
+      "0": "Vzácný klient",
+      "1": "Příležitostný klient",
+      "2": "Častý klient",
+      "3": "Významný klient"
+    },
+    "invoicesLate": {
+      "title": "Zpožděné faktury",
+      "-1": "Velmi častá zpoždění faktur",
+      "0": "Častá zpoždění faktur",
+      "1": "Občasná zpoždění faktur",
+      "2": "Vzácná zpoždění faktur",
+      "3": "Žádná zpoždění faktur"
+    },
+    "companiesCount": {
+      "title": "Počet společností",
+      "0": "Žádné přidružené společnosti",
+      "1": "Jedna přidružená společnost",
+      "2": "Více přidružených společností",
+      "3": "Mnoho přidružených společností"
+    },
     "associatedCompanies": "Přidružené společnosti"
   },
   "WhyVerifyEmail": {

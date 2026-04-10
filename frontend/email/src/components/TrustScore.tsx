@@ -27,11 +27,9 @@ export function TrustScore({ result }: TrustScoreProps) {
           /100
         </p> */}
       </div>
-      <div
-        className={`px-sm py-xl md:px-2xl bg-card-bg shadow-sm border border-card-border color-base-400 rounded-[1.5rem] w-full sm:max-w-[45rem]`}
-      >
+      <div className="px-sm py-xl sm:px-2xl bg-card-bg shadow-sm border border-card-border color-base-400 rounded-[1.5rem] w-full sm:max-w-[50rem]">
         <div className="flex justify-center">
-          <div className="flex flex-col gap-md sm:gap-xs">
+          <div className="flex flex-col sm:w-full gap-lg sm:gap-xs">
             <ScoreLine
               icon={AtSymbolIcon}
               title={t("addressRiskStatus")}

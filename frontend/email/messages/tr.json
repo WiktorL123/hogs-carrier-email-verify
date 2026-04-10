@@ -3,6 +3,7 @@
     "title": "E-posta doğrulama:",
     "emailRequired": "E-posta gereklidir",
     "emailMessage": "Geçersiz e-posta formatı",
+    "nonStandardCharsWarning": "Bu e-posta standart dışı karakterler içeriyor",
     "inputPlaceholder": "Yüklenicinizi kontrol edin",
     "loading": "Yükleniyor",
     "resultNotExistingHeading": "Henüz sonuç yok",
@@ -31,13 +32,57 @@
     "times": "kez",
     "hogsRatings": "HOGS Derecelendirmeleri",
     "NoDataFromHogs": "HOGS'tan veri yok",
-    "shipmentVolume": "Sevkiyat hacmi",
-    "clientTenure": "Müşteri süresi",
+    "scam": {
+      "title": "Dolandırıcılık",
+      "-1": "E-posta dolandırıcılık olarak bildirildi",
+      "0": "Bu e-posta için dolandırıcılık bildirimi yok"
+    },
+    "scamDomain": {
+      "title": "Dolandırıcı Alan Adı",
+      "-1": "Alan adı dolandırıcılık olarak bildirildi",
+      "0": "Bu alan adı için dolandırıcılık bildirimi yok"
+    },
+    "generalDomain": {
+      "title": "Genel Alan Adı",
+      "0": "Bu tanınmış bir alan adı değil",
+      "3": "Bu tanınmış bir alan adı"
+    },
+    "firstFreight": {
+      "title": "İlk Sevkiyat",
+      "-1": "Bilinmiyor",
+      "0": "Yeni müşteri",
+      "1": "Tanınmış müşteri",
+      "2": "Sadık müşteri",
+      "3": "Uzun süreli sadık müşteri"
+    },
+    "freightsCount": {
+      "title": "Müşteri Süresi",
+      "-1": "Bilinmiyor",
+      "0": "Nadir müşteri",
+      "1": "Ara sıra gelen müşteri",
+      "2": "Sık gelen müşteri",
+      "3": "Popüler müşteri"
+    },
+    "invoicesLate": {
+      "title": "Gecikmiş Faturalar",
+      "-1": "Çok sık fatura gecikmesi",
+      "0": "Sık fatura gecikmesi",
+      "1": "Ara sıra fatura gecikmesi",
+      "2": "Az sayıda fatura gecikmesi",
+      "3": "Fatura gecikmesi yok"
+    },
+    "companiesCount": {
+      "title": "Şirket Sayısı",
+      "0": "İlişkili şirket yok",
+      "1": "Tek ilişkili şirket",
+      "2": "Birden fazla şirket",
+      "3": "Çok sayıda ilişkili şirket"
+    },
     "associatedCompanies": "İlişkili şirketler"
   },
   "WhyVerifyEmail": {
     "title": "Bir e-postayı neden doğrulamalısınız?",
-    "paragraph": "E-postaları doğrulamak, şüpheli gönderenleri ekibinize ulaşmadan önce tespit ederek işletmenizi dolandırıcılıklardan, veri ihlallerinden ve maliyetli kesintilerden korumaya yardımcı olur. Şirketlerin sık sık teslimat talepleri, faturalar ve rezervasyon onayları aldığı karayolu taşımacılığı sektöründe, dolandırıcıların araya sızması kolaydır. E-posta doğrulaması, yalnızca meşru iletişimin geçmesini sağlayan ilk savunma hattı olarak işlev görür."
+    "paragraph": "E-postaları doğrulamak, şüpheli gönderenleri ekibinize ulaşmadan önce tespit ederek işletmenizi dolandırıcılıklardan, veri ihlallerinden og maliyetli kesintilerden korumaya yardımcı olur. Şirketlerin sık sık teslimat talepleri, faturalar ve rezervasyon onayları aldığı karayolu taşımacılığı sektöründe, dolandırıcıların araya sızması kolaydır. E-posta doğrulaması, yalnızca meşru iletişimin geçmesini sağlayan ilk savunma hattı olarak işlev görür."
   },
   "SafetyBenefits": {
     "title": "Güvenlik avantajları",

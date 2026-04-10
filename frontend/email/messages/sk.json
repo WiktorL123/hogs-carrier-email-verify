@@ -3,6 +3,7 @@
     "title": "Overenie e-mailu od",
     "emailRequired": "E-mail je povinný",
     "emailMessage": "Neplatný formát e-mailu",
+    "nonStandardCharsWarning": "Tento e-mail obsahuje neštandardné znaky",
     "inputPlaceholder": "Skontrolujte svojho dodávateľa",
     "loading": "Načítava sa",
     "resultNotExistingHeading": "Zatiaľ žiadne výsledky",
@@ -31,8 +32,52 @@
     "times": "krát",
     "hogsRatings": "Hodnotenia HOGS",
     "NoDataFromHogs": "Žiadne dáta z HOGS",
-    "shipmentVolume": "Objem zásielok",
-    "clientTenure": "Dĺžka spolupráce klienta",
+    "scam": {
+      "title": "Podvod",
+      "-1": "E-mail nahlásený ako podvod",
+      "0": "Žiadne hlásenia podvodu pre tento e-mail"
+    },
+    "scamDomain": {
+      "title": "Podvodná doména",
+      "-1": "Doména nahlásená ako podvodná",
+      "0": "Žiadne hlásenia podvodu pre túto doménu"
+    },
+    "generalDomain": {
+      "title": "Všeobecná doména",
+      "0": "Toto nie je veľmi známa doména",
+      "3": "Toto je známa doména"
+    },
+    "firstFreight": {
+      "title": "Prvý náklad",
+      "-1": "Neznáme",
+      "0": "Nový klient",
+      "1": "Známy klient",
+      "2": "Loajálny klient",
+      "3": "Dlhodobý loajálny klient"
+    },
+    "freightsCount": {
+      "title": "Dĺžka spolupráce",
+      "-1": "Neznáme",
+      "0": "Zriedkavý klient",
+      "1": "Príležitostný klient",
+      "2": "Častý klient",
+      "3": "Populárny klient"
+    },
+    "invoicesLate": {
+      "title": "Meškanie faktúr",
+      "-1": "Veľmi časté omeškania faktúr",
+      "0": "Časté omeškania faktúr",
+      "1": "Príležitostné omeškania faktúr",
+      "2": "Menej časté omeškania faktúr",
+      "3": "Žiadne omeškania faktúr"
+    },
+    "companiesCount": {
+      "title": "Počet spoločností",
+      "0": "Žiadne pridružené spoločnosti",
+      "1": "Jedna pridružená spoločnosť",
+      "2": "Viacero spoločností",
+      "3": "Mnoho pridružených spoločností"
+    },
     "associatedCompanies": "Pridružené spoločnosti"
   },
   "WhyVerifyEmail": {

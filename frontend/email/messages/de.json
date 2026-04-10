@@ -3,6 +3,7 @@
     "title": "E-Mail-Verifizierung durch",
     "emailRequired": "E-Mail ist erforderlich",
     "emailMessage": "Ungültiges E-Mail-Format",
+    "nonStandardCharsWarning": "Diese E-Mail enthält nicht standardmäßige Zeichen",
     "inputPlaceholder": "Überprüfen Sie Ihren Auftragnehmer",
     "loading": "Wird geladen",
     "resultNotExistingHeading": "Noch keine Ergebnisse",
@@ -30,9 +31,53 @@
     "oneTime": "1 Mal",
     "times": "Mal",
     "hogsRatings": "HOGS-Bewertungen",
-    "NoDataFromHogs":"Keine Daten von HOGS",
-    "shipmentVolume": "Versandvolumen",
-    "clientTenure": "Kundenbindung",
+    "NoDataFromHogs": "Keine Daten von HOGS",
+    "scam": {
+      "title": "Betrug",
+      "-1": "E-Mail wurde als Betrug gemeldet",
+      "0": "Keine Betrugsmeldungen für diese E-Mail"
+    },
+    "scamDomain": {
+      "title": "Betrugsdomain",
+      "-1": "Domain wurde als Betrug gemeldet",
+      "0": "Keine Betrugsmeldungen für diese Domain"
+    },
+    "generalDomain": {
+      "title": "Allgemeine Domain",
+      "0": "Dies ist keine bekannte Domain",
+      "3": "Dies ist eine bekannte Domain"
+    },
+    "firstFreight": {
+      "title": "Erste Lieferung",
+      "-1": "Unbekannt",
+      "0": "Neuer Kunde",
+      "1": "Bekannter Kunde",
+      "2": "Treuer Kunde",
+      "3": "Langjähriger treuer Kunde"
+    },
+    "freightsCount": {
+      "title": "Kundenbeziehung",
+      "-1": "Unbekannt",
+      "0": "Seltener Kunde",
+      "1": "Gelegentlicher Kunde",
+      "2": "Häufiger Kunde",
+      "3": "Wichtiger Kunde"
+    },
+    "invoicesLate": {
+      "title": "Verspätete Rechnungen",
+      "-1": "Sehr häufig verspätete Rechnungen",
+      "0": "Häufig verspätete Rechnungen",
+      "1": "Gelegentlich verspätete Rechnungen",
+      "2": "Selten verspätete Rechnungen",
+      "3": "Keine verspäteten Rechnungen"
+    },
+    "companiesCount": {
+      "title": "Anzahl der Unternehmen",
+      "0": "Keine verbundenen Unternehmen",
+      "1": "Ein verbundenes Unternehmen",
+      "2": "Mehrere verbundene Unternehmen",
+      "3": "Viele verbundene Unternehmen"
+    },
     "associatedCompanies": "Verbundene Unternehmen"
   },
   "WhyVerifyEmail": {
