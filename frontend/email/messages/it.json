@@ -3,6 +3,7 @@
     "title": "Verifica email da parte di",
     "emailRequired": "L'email è obbligatoria",
     "emailMessage": "Formato email non valido",
+    "nonStandardCharsWarning": "Questa email contiene caratteri non standard",
     "inputPlaceholder": "Controlla il tuo appaltatore",
     "loading": "Caricamento",
     "resultNotExistingHeading": "Ancora nessun risultato",
@@ -31,8 +32,52 @@
     "times": "volte",
     "hogsRatings": "Valutazioni HOGS",
     "NoDataFromHogs": "Nessun dato da HOGS",
-    "shipmentVolume": "Volume di spedizione",
-    "clientTenure": "Anzianità del cliente",
+    "scam": {
+      "title": "Truffa",
+      "-1": "Email segnalata come truffa",
+      "0": "Nessuna segnalazione di truffa per questa email"
+    },
+    "scamDomain": {
+      "title": "Dominio truffa",
+      "-1": "Dominio segnalato come truffa",
+      "0": "Nessuna segnalazione di truffa per questo dominio"
+    },
+    "generalDomain": {
+      "title": "Dominio generale",
+      "0": "Questo non è un dominio molto noto",
+      "3": "Questo è un dominio noto"
+    },
+    "firstFreight": {
+      "title": "Primo trasporto",
+      "-1": "Sconosciuto",
+      "0": "Nuovo cliente",
+      "1": "Cliente noto",
+      "2": "Cliente fedele",
+      "3": "Cliente fedele di lunga data"
+    },
+    "freightsCount": {
+      "title": "Anzianità del cliente",
+      "-1": "Sconosciuto",
+      "0": "Cliente raro",
+      "1": "Cliente occasionale",
+      "2": "Cliente frequente",
+      "3": "Cliente popolare"
+    },
+    "invoicesLate": {
+      "title": "Fatture in ritardo",
+      "-1": "Ritardi nei pagamenti molto frequenti",
+      "0": "Ritardi nei pagamenti frequenti",
+      "1": "Ritardi nei pagamenti occasionali",
+      "2": "Pochi ritardi nei pagamenti",
+      "3": "Nessun ritardo nei pagamenti"
+    },
+    "companiesCount": {
+      "title": "Numero di aziende",
+      "0": "Nessuna azienda associata",
+      "1": "Singola azienda associata",
+      "2": "Multiple aziende",
+      "3": "Molte aziende associate"
+    },
     "associatedCompanies": "Aziende associate"
   },
   "WhyVerifyEmail": {

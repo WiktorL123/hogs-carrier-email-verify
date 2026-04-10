@@ -3,6 +3,7 @@
     "title": "E-mailbekræftelse af",
     "emailRequired": "E-mail er påkrævet",
     "emailMessage": "Ugyldigt e-mailformat",
+    "nonStandardCharsWarning": "Denne e-mail indeholder ikke-standardtegn",
     "inputPlaceholder": "Tjek din samarbejdspartner",
     "loading": "Indlæser",
     "resultNotExistingHeading": "Ingen resultater endnu",
@@ -31,8 +32,52 @@
     "times": "gange",
     "hogsRatings": "HOGS-bedømmelser",
     "NoDataFromHogs": "Ingen data fra HOGS",
-    "shipmentVolume": "Forsendelsesvolumen",
-    "clientTenure": "Kundeanciennitet",
+    "scam": {
+      "title": "Svindel",
+      "-1": "E-mail rapporteret som svindel",
+      "0": "Ingen svindelrapporter for denne e-mail"
+    },
+    "scamDomain": {
+      "title": "Svindeldomæne",
+      "-1": "Domæne rapporteret som svindel",
+      "0": "Ingen svindelrapporter for dette domæne"
+    },
+    "generalDomain": {
+      "title": "Generelt domæne",
+      "0": "Dette er ikke et velkendt domæne",
+      "3": "Dette er et velkendt domæne"
+    },
+    "firstFreight": {
+      "title": "Første fragt",
+      "-1": "Ukendt",
+      "0": "Ny kunde",
+      "1": "Kendt kunde",
+      "2": "Loyal kunde",
+      "3": "Langvarig loyal kunde"
+    },
+    "freightsCount": {
+      "title": "Kundeforhold",
+      "-1": "Ukendt",
+      "0": "Sjælden kunde",
+      "1": "Lejlighedsvis kunde",
+      "2": "Hyppig kunde",
+      "3": "Vigtig kunde"
+    },
+    "invoicesLate": {
+      "title": "Forsinkede fakturaer",
+      "-1": "Meget hyppige forsinkelser af fakturaer",
+      "0": "Hyppige forsinkelser af fakturaer",
+      "1": "Lejlighedsvise forsinkelser af fakturaer",
+      "2": "Sjældne forsinkelser af fakturaer",
+      "3": "Ingen forsinkelser af fakturaer"
+    },
+    "companiesCount": {
+      "title": "Antal virksomheder",
+      "0": "Ingen tilknyttede virksomheder",
+      "1": "Én tilknyttet virksomhed",
+      "2": "Flere tilknyttede virksomheder",
+      "3": "Mange tilknyttede virksomheder"
+    },
     "associatedCompanies": "Tilknyttede virksomheder"
   },
   "WhyVerifyEmail": {

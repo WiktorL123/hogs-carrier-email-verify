@@ -3,6 +3,7 @@
     "title": "Verificare email de către",
     "emailRequired": "Emailul este obligatoriu",
     "emailMessage": "Format de email invalid",
+    "nonStandardCharsWarning": "Acest e-mail conține caractere non-standard",
     "inputPlaceholder": "Verificați contractorul dvs.",
     "loading": "Se încarcă",
     "resultNotExistingHeading": "Niciun rezultat încă",
@@ -31,8 +32,52 @@
     "times": "ori",
     "hogsRatings": "Evaluări HOGS",
     "NoDataFromHogs": "Fără date de la HOGS",
-    "shipmentVolume": "Volumul expedierilor",
-    "clientTenure": "Vechimea clientului",
+    "scam": {
+      "title": "Escrocherie",
+      "-1": "Email raportat ca escrocherie",
+      "0": "Nicio raportare de escrocherie pentru acest email"
+    },
+    "scamDomain": {
+      "title": "Domeniu suspect",
+      "-1": "Domeniu raportat ca escrocherie",
+      "0": "Nicio raportare de escrocherie pentru acest domeniu"
+    },
+    "generalDomain": {
+      "title": "Domeniu general",
+      "0": "Acesta nu este un domeniu bine cunoscut",
+      "3": "Acesta este un domeniu cunoscut"
+    },
+    "firstFreight": {
+      "title": "Prima expediere",
+      "-1": "Necunoscut",
+      "0": "Client nou",
+      "1": "Client cunoscut",
+      "2": "Client loial",
+      "3": "Client loial de lungă durată"
+    },
+    "freightsCount": {
+      "title": "Vechimea clientului",
+      "-1": "Necunoscut",
+      "0": "Client rar",
+      "1": "Client ocazional",
+      "2": "Client frecvent",
+      "3": "Client popular"
+    },
+    "invoicesLate": {
+      "title": "Facturi întârziate",
+      "-1": "Întârzieri de facturare foarte frecvente",
+      "0": "Întârzieri de facturare frecvente",
+      "1": "Întârzieri de facturare ocazionale",
+      "2": "Puține întârzieri de facturare",
+      "3": "Fără întârzieri de facturare"
+    },
+    "companiesCount": {
+      "title": "Numărul de companii",
+      "0": "Nicio companie asociată",
+      "1": "O singură companie asociată",
+      "2": "Mai multe companii",
+      "3": "Multe companii asociate"
+    },
     "associatedCompanies": "Companii asociate"
   },
   "WhyVerifyEmail": {

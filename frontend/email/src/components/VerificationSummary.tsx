@@ -2,6 +2,7 @@ import { ThemeContext } from "@/context/ThemeContext";
 import { apiResponse } from "@/types/Response";
 import { useContext } from "react";
 import { useTranslations } from "next-intl";
+import { ExclamationCircleIcon } from "@heroicons/react/16/solid";
 
 export interface Props {
   content: string;
@@ -30,12 +31,16 @@ export function VerficationSummary({ result, email }: Props) {
     return score;
   };
 
+  const hasNonStandardChars = (email: string): boolean => {
+    return /[^a-zA-Z0-9@._%+-]/.test(email);
+  };
+
   return (
     <div className="flex flex-col items-center justify-center gap-sm w-full">
-      <h1 className="poppins-24-600">
-        {t("summaryTitle")}:{" "}
+      <h1 className="poppins-24-600 flex flex-wrap gap-x-2 w-full">
+        <span>{t("summaryTitle")}:</span>
         <span
-          className={`poppins-24-600 ${
+          className={`break-all ${
             calculatingScore() <= 40
               ? "text-danger-600"
               : calculatingScore() <= 70
@@ -44,7 +49,7 @@ export function VerficationSummary({ result, email }: Props) {
           }`}
         >
           {email}
-        </span>{" "}
+        </span>
       </h1>
       {/* <p
         className={`poppins-24-600 ${
@@ -57,8 +62,16 @@ export function VerficationSummary({ result, email }: Props) {
       >
         {calculatingScore()} / 100
       </p> */}
+      {hasNonStandardChars(email) && (
+        <div className="flex gap-sm w-full pb-md">
+          <ExclamationCircleIcon className="w-md" />
+          <p className="figtree-14-500 text-nowrap">
+            {t("nonStandardCharsWarning")}
+          </p>
+        </div>
+      )}
       <div
-        className={`py-sm px-md flex flex-col gap-xs rounded-[0.4rem] shadow-sm w-full sm:max-w-[45rem]  ${
+        className={`py-sm px-md flex flex-col gap-xs rounded-[0.4rem] shadow-sm w-full sm:max-w-[50rem]  ${
           calculatingScore() <= 40
             ? "bg-danger-200"
             : calculatingScore() <= 70

@@ -3,6 +3,7 @@
     "title": "E-mailverificatie door",
     "emailRequired": "E-mail is vereist",
     "emailMessage": "Ongeldig e-mailformaat",
+    "nonStandardCharsWarning": "Dit e-mailadres bevat niet-standaard tekens",
     "inputPlaceholder": "Controleer uw aannemer",
     "loading": "Laden",
     "resultNotExistingHeading": "Nog geen resultaten",
@@ -31,8 +32,52 @@
     "times": "keer",
     "hogsRatings": "HOGS beoordelingen",
     "NoDataFromHogs": "Geen gegevens van HOGS",
-    "shipmentVolume": "Verzendvolume",
-    "clientTenure": "Klanttermijn",
+    "scam": {
+      "title": "Oplichting",
+      "-1": "E-mail gerapporteerd als oplichting",
+      "0": "Geen meldingen van oplichting voor deze e-mail"
+    },
+    "scamDomain": {
+      "title": "Oplichtingsdomein",
+      "-1": "Domein gerapporteerd als oplichting",
+      "0": "Geen meldingen van oplichting voor dit domein"
+    },
+    "generalDomain": {
+      "title": "Algemeen domein",
+      "0": "Dit is geen bekend domein",
+      "3": "Dit is een bekend domein"
+    },
+    "firstFreight": {
+      "title": "Eerste vracht",
+      "-1": "Onbekend",
+      "0": "Nieuwe klant",
+      "1": "Bekende klant",
+      "2": "Loyale klant",
+      "3": "Langdurige loyale klant"
+    },
+    "freightsCount": {
+      "title": "Klanttermijn",
+      "-1": "Onbekend",
+      "0": "Zeldzame klant",
+      "1": "Incidentele klant",
+      "2": "Frequente klant",
+      "3": "Populaire klant"
+    },
+    "invoicesLate": {
+      "title": "Facturen te laat",
+      "-1": "Zeer frequente betalingsachterstanden",
+      "0": "Frequente betalingsachterstanden",
+      "1": "Incidentele betalingsachterstanden",
+      "2": "Weinig betalingsachterstanden",
+      "3": "Geen betalingsachterstanden"
+    },
+    "companiesCount": {
+      "title": "Aantal bedrijven",
+      "0": "Geen geassocieerde bedrijven",
+      "1": "Enkel geassocieerd bedrijf",
+      "2": "Meerdere bedrijven",
+      "3": "Veel geassocieerde bedrijven"
+    },
     "associatedCompanies": "Geassocieerde bedrijven"
   },
   "WhyVerifyEmail": {

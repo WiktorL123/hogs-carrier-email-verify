@@ -3,6 +3,7 @@
     "title": "E-postverifiering av",
     "emailRequired": "E-post krävs",
     "emailMessage": "Ogiltigt e-postformat",
+    "nonStandardCharsWarning": "Det här e-postmeddelandet innehåller tecken som inte är standard",
     "inputPlaceholder": "Kontrollera din entreprenör",
     "loading": "Laddar",
     "resultNotExistingHeading": "Inga resultat ännu",
@@ -31,8 +32,52 @@
     "times": "gånger",
     "hogsRatings": "HOGS-betyg",
     "NoDataFromHogs": "Ingen data från HOGS",
-    "shipmentVolume": "Försändelsevolym",
-    "clientTenure": "Kundtid",
+    "scam": {
+      "title": "Bedrägeri",
+      "-1": "E-post rapporterad som bedrägeri",
+      "0": "Inga bedrägerirapporter för denna e-post"
+    },
+    "scamDomain": {
+      "title": "Bedrägeridomän",
+      "-1": "Domän rapporterad som bedrägeri",
+      "0": "Inga bedrägerirapporter för denna domän"
+    },
+    "generalDomain": {
+      "title": "Allmän domän",
+      "0": "Detta är inte en välkänd domän",
+      "3": "Detta är en känd domän"
+    },
+    "firstFreight": {
+      "title": "Första frakten",
+      "-1": "Okänd",
+      "0": "Ny kund",
+      "1": "Känd kund",
+      "2": "Lojal kund",
+      "3": "Långvarig lojal kund"
+    },
+    "freightsCount": {
+      "title": "Kundtid",
+      "-1": "Okänd",
+      "0": "Sällsynt kund",
+      "1": "Tillfällig kund",
+      "2": "Frekvent kund",
+      "3": "Populär kund"
+    },
+    "invoicesLate": {
+      "title": "Sena fakturor",
+      "-1": "Mycket frekventa fakturaförseningar",
+      "0": "Frekventa fakturaförseningar",
+      "1": "Tillfälliga fakturaförseningar",
+      "2": "Få fakturaförseningar",
+      "3": "Inga fakturaförseningar"
+    },
+    "companiesCount": {
+      "title": "Antal företag",
+      "0": "Inga associerade företag",
+      "1": "Ett associerat företag",
+      "2": "Flera företag",
+      "3": "Många associerade företag"
+    },
     "associatedCompanies": "Associerade företag"
   },
   "WhyVerifyEmail": {

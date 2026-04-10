@@ -3,6 +3,7 @@
     "title": "Weryfikacja email przez",
     "emailRequired": "Email jest wymagany",
     "emailMessage": "Nieprawidłowy format adresu email",
+    "nonStandardCharsWarning": "Ten adres email zawiera niestandardowe znaki",
     "inputPlaceholder": "Sprawdź swojego kontrahenta",
     "loading": "Ładowanie",
     "resultNotExistingHeading": "Brak wyników",
@@ -17,7 +18,7 @@
     "domainRiskStatus": "Status ryzyka domeny",
     "knownProvider": "Znany dostawca",
     "appearedInDataBreaches": "Wystąpił w wyciekach danych",
-    "isUsernameSuspicious": "Podejrzana nazwa użytkownika",
+    "isUsernameSuspicious": "Czy nazwa użytkownika jest podejrzana",
     "statusLow": "niskie",
     "statusMedium": "średnie",
     "statusHigh": "wysokie",
@@ -32,53 +33,51 @@
     "hogsRatings": "Oceny HOGS",
     "NoDataFromHogs": "Brak danych z HOGS",
     "scam": {
-    "title": "Oszustwo",
-    "-1": "E-mail zgłoszony jako oszustwo",
-    "0": "Brak zgłoszeń o oszustwie dla tego e-maila"
-  },
-  "scamDomain": {
-    "title": "Domena oszustów",
-    "-1": "Domena zgłoszona jako oszustwo",
-    "0": "Brak zgłoszeń o oszustwie dla tej domeny"
-  },
-  "generalDomain": {
-    "title": "Domena ogólna",
-    "0": "To nie jest dobrze znana domena",
-    "3": "To jest znana domena"
-  },
-  "firstFreight": {
-    "title": "Pierwszy fracht",
-    "-1": "Nieznany",
-    "0": "Nowy klient",
-    "1": "Znany klient",
-    "2": "Lojalny klient",
-    "3": "Długoletni lojalny klient"
-  },
-  "freightsCount": {
-    "title": "Staż klienta",
-    "-1": "Nieznany",
-    "0": "Rzadki klient",
-    "1": "Okazjonalny klient",
-    "2": "Częsty klient",
-    "3": "Popularny klient"
-  },
-  "invoicesLate": {
-    "title": "Opóźnienia faktur",
-    "-1": "Bardzo częste opóźnienia faktur",
-    "0": "Częste opóźnienia faktur",
-    "1": "Okazjonalne opóźnienia faktur",
-    "2": "Rzadkie opóźnienia faktur",
-    "3": "Brak opóźnień faktur"
-  },
-  "companiesCount": {
-    "title": "Liczba firm",
-    "0": "Brak powiązanych firm",
-    "1": "Jedna powiązana firma",
-    "2": "Kilka powiązanych firm",
-    "3": "Wiele powiązanych firm"
-  },
-    "shipmentVolume": "Wolumen przesyłek",
-    "clientTenure": "Staż klienta",
+      "title": "E-mail zgłoszony jako scam",
+      "-1": "E-mail został zgłoszony jako scam",
+      "0": "Brak zgłoszeń jako scam dla tego e-maila"
+    },
+    "scamDomain": {
+      "title": "Domena zgłoszona jako scam",
+      "-1": "Domena została zgłoszona jako scam",
+      "0": "Brak zgłoszeń jako scam dla tej domeny"
+    },
+    "generalDomain": {
+      "title": "Domena ogólna",
+      "0": "To nie jest dobrze znana domena",
+      "3": "To jest znana domena"
+    },
+    "firstFreight": {
+      "title": "Pierwszy fracht",
+      "-1": "Nieznany klient",
+      "0": "Nowy klient",
+      "1": "Znany klient",
+      "2": "Klient od dawna",
+      "3": "Klient od bardzo dawna"
+    },
+    "freightsCount": {
+      "title": "Liczba frachtów",
+      "-1": "Nieznany zleceniodawca",
+      "0": "Rzadki zleceniodawca",
+      "1": "Okazjonalny zleceniodawca",
+      "2": "Widziane wielokrotnie",
+      "3": "Popularny zleceniodawca"
+    },
+    "invoicesLate": {
+      "title": "Opóźnienia faktur",
+      "-1": "Bardzo częste opóźnienia faktur",
+      "0": "Częste opóźnienia faktur",
+      "1": "Okazjonalne opóźnienia faktur",
+      "2": "Rzadkie opóźnienia faktur",
+      "3": "Brak opóźnień faktur"
+    },
+    "companiesCount": {
+      "title": "Liczba firm",
+      "0": "Brak powiązanych firm",
+      "1": "Jedna powiązana firma",
+      "2": "Kilka powiązanych firm",
+      "3": "Wiele powiązanych firm"
+    },
     "associatedCompanies": "Powiązane firmy"
   },
   "WhyVerifyEmail": {

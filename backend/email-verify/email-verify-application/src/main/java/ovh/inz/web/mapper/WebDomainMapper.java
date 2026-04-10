@@ -12,6 +12,10 @@ import java.util.List;
 
 @Component
 public class WebDomainMapper {
+    public String normalizeEmail(String email) {
+        return email.toLowerCase().trim();
+    }
+
     public List<RatingDto> mapToDtoRatings(MongoResult ratingsDomain) {
        return ratingsDomain.ratings()
                 .stream()
